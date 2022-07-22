@@ -1,0 +1,101 @@
+html {
+  font-family: Georgia;
+  display: table;
+  margin: auto;
+}
+body {
+  display: table-cell;
+  vertical-align: middle;
+  max-width: 900px;
+}
+#right {
+  padding-bottom: 20px;
+}
+#demographics {
+  display: flex;
+  align-items: end;
+  padding-top: 10px;
+}
+#title {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-left: 20px;
+  padding-bottom: 2px;
+}
+#full_name {
+  font-size: 2.0em;
+  font-family: Arial;
+}
+#main {
+  display: flex;
+}
+#summary {
+  padding: 5px 15px 10px;
+}
+#left {
+  padding: 0 10px;
+  min-width: 150px;
+}
+#logo {
+  padding-top: 10px;
+  text-align: center;
+}
+#skills {
+  padding-top: 20px;
+}
+.skill_block, .experience {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.skill_head {
+  padding-top: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.skill_name {
+  padding-left: 10px;
+  text-indent: -10px;
+}
+.skill_secondary {
+  padding-left: 5px;
+  font-size: 0.95em;
+}
+.skill_level {
+  font-size: 0.8em;
+  position: relative;
+  top: -2px;
+}
+#experiences {
+  margin-left: 10px;
+}
+.experience_name {
+  font-size: 1.5em;
+  font-style: italic;
+}
+.experience_place_time {
+  font-size: .9em;
+  color: darkgray;
+}
+.accomplishments_section {
+  margin-top: 5px;
+}
+.accomplishments {
+  font-weight: bold;
+}
+.project_heading {
+  font-size: .9em;
+  color: darkgray;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.accomplishments_section ul {
+  margin: 0;
+}
