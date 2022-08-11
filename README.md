@@ -1,5 +1,7 @@
 # Resume Generator
 
+![Preview](./preview.png)
+
 Open the following files and fill in the data:
 - demographics.js
 - experiences.js
