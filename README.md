@@ -2,9 +2,11 @@
 
 ![Preview](./preview.png)
 
-Open the following files and fill in the data:
+## How to use
+
+1. Clone project to your computer
+1. Using a text editor or IDE, open the following files and fill in the data:
 - demographics.js
 - experiences.js
 - skills.js
-
-Then open `index.html` in your browser, and print to PDF.
+1. Open `index.html` in your browser, and print to PDF.
