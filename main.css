@@ -13,7 +13,7 @@ body {
 }
 #demographics {
   display: flex;
-  align-items: end;
+  align-items: center;
   padding-top: 10px;
 }
 #title {
@@ -26,6 +26,10 @@ body {
 #full_name {
   font-size: 2.0em;
   font-family: Arial;
+  white-space: nowrap;
+}
+.certification {
+  max-width: 80px;
 }
 #main {
   display: flex;

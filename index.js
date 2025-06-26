@@ -9,7 +9,26 @@ demographicsDisplay.innerHTML = `<div id="full_name">${demographics.name}</div>`
 const title = document.createElement("div");
 title.id = 'title';
 title.innerHTML = `${demographics.title}`;
-document.getElementById("demographics").appendChild(title);
+demographicsDisplay.appendChild(title);
+
+/**
+ * Build/Set Certs area
+ */
+if (demographics.certifications.length) {
+let certificationsDisplay = document.createElement('div')
+  demographics.certifications.forEach(({name, link, image}) => {
+    const certificationLink = document.createElement("a")
+    certificationLink.href = link;
+
+    const certificationBlock = document.createElement("img")
+    certificationBlock.classList.add('certification')
+    certificationBlock.src = image;
+    certificationBlock.title = name;
+
+    certificationLink.appendChild(certificationBlock);
+    demographicsDisplay.appendChild(certificationLink);
+  })
+}
 
 let summaryDisplay = document.getElementById('summary')
 summaryDisplay.innerHTML = demographics.summary
